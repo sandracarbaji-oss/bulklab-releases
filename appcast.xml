@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>BulkLab</title>
-        <link>https://raw.githubusercontent.com/sandracarbaji-oss/bulklab-releases/main/appcast.xml</link>
-        <description>Actualizaciones de BulkLab</description>
-        <language>es</language>
+        <title>BulkLab 0.5.0</title>
+        <item>
+            <title>0.5.0</title>
+            <pubDate>Sun, 27 Sep 2026 23:57:18 -0500</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.5.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <h2>0.5.0</h2>
+                <p><strong>ES:</strong> Activación por clave de licencia (se pide la primera vez que abres la app). Actualizaciones automáticas dentro de la app a partir de esta versión.</p>
+                <p><strong>EN:</strong> License-key activation (asked once, on first launch). In-app automatic updates starting with this version.</p>
+            ]]></description>
+            <enclosure url="https://raw.githubusercontent.com/sandracarbaji-oss/bulklab-releases/main/releases/0.5.0/BulkLab-0.5.0-Mac.zip" length="1663862" type="application/octet-stream" sparkle:edSignature="qf8KLv/uSlBXaF9QT9+oDPlW0cnxnNjPezP1dBt+RndmutRuglu1Kxmw2GpoC+tjLBuInVojDFk+YQBo7zW0DA=="/>
+        </item>
     </channel>
 </rss>
